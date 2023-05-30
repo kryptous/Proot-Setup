@@ -7,8 +7,8 @@ WINE_AMD64=https://github.com/Kron4ek/Wine-Builds/releases/download/8.0.1/wine-8
 
 # Install related kits
 sudo dpkg --add-architecture armhf
-sudo apt update
-sudo apt upgrade -y
+
+
 sudo apt install -y gpg xz-utils 
 
 # - These packages are needed for running box86/wine-i386 box64/wine-amd64
